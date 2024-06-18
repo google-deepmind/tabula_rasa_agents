@@ -1,30 +1,41 @@
 # tabula_rasa_agents
 
-TODO(b/339903711): Add a description for your new project, explain what is
-being released here, etc... Additional, the following sections are normally
-expected for all releases. Feel free to add additional sections if appropriate
-for your project.
-
-## Installation
-
-Write instructions for how the user should install your code. The instructions
-should ideally be valid when copy-pasted. You can combine this with the Usage
-section if there's no separate installation step.
+This repository contains the code accompanying the publication **Tabula rasa
+agents display emergent in-group behavior**,
+published in the Proceedings of the National Academy of Sciences, 2024.
 
 ## Usage
 
-Write example usage of your code. The instructions should ideally be valid when
-copy-pasted, and will be used by your technical reviewer to verify that your
-package functions correctly.
+### Figures
+
+You can load the dataset and the code used to produce the figures in the
+research article using Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/google-deepmind/tabula_rasa_agents/blob/main/notebooks/tabula_rasa_agents.ipynb)
+
+The environment is based on
+[Melting Pot](https://github.com/google-deepmind/meltingpot)
+
+Clone this repository with
+
+```sh
+git clone https://github.com/google-deepmind/tabula_rasa_agents.git
+```
 
 ## Citing this work
 
-Add citation details here, usually a pastable BibTeX snippet:
-
 ```latex
-@article{publicationname,
-      title={Publication Name},
-      author={Author One and Author Two and Author Three},
+@article{koster2024tabula,
+      title={Tabula rasa agents display emergent in-group behavior},
+      author={Koster, R AND Du\'e\~nez-Guzm\'an, EA AND
+              Cunningham, WA AND
+              Leibo, JZ},
+      journal={Proceedings of the National Academy of Sciences},
+      volume={XXX},
+      number={XX},
+      pages={X},
+      doi={10.1073/pnas.XXX},
+      URL={https://www.pnas.org/doi/abs/10.1073/pnas.XXX},
+      publisher={National Academy of Sciences}
       year={2024},
 }
 ```
