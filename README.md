@@ -30,11 +30,10 @@ git clone https://github.com/google-deepmind/tabula_rasa_agents.git
               Cunningham, WA AND
               Leibo, JZ},
       journal={Proceedings of the National Academy of Sciences},
-      volume={XXX},
-      number={XX},
-      pages={X},
-      doi={10.1073/pnas.XXX},
-      URL={https://www.pnas.org/doi/abs/10.1073/pnas.XXX},
+      volume={121},
+      number={0},
+      doi={https://doi.org/10.1073/pnas.2319947121},
+      URL={https://www.pnas.org/doi/abs/10.1073/pnas.2319947121},
       publisher={National Academy of Sciences}
       year={2024},
 }
